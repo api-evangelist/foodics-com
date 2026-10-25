@@ -1,0 +1,25 @@
+generated: '2026-10-25'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/foodics
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (foodics.com,
+  security/foodics-com-domain-security.yml) or its accepted GitHub org (foodics).'
+packages:
+- name: OnlineAPISanity
+  registry: github
+  url: https://github.com/foodics/OnlineAPISanity
+  language: Java
+  official: true
+  version: null
+  published: '2026-04-16'
+  source_repo: https://github.com/foodics/OnlineAPISanity
+  evidence: repository in github.com/foodics, whose profile names the provider's domain
+- name: OnlineAPITesting
+  registry: github
+  url: https://github.com/foodics/OnlineAPITesting
+  language: Java
+  official: true
+  version: null
+  published: '2026-03-09'
+  source_repo: https://github.com/foodics/OnlineAPITesting
+  evidence: repository in github.com/foodics, whose profile names the provider's domain

@@ -1,0 +1,18 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developers.foodics.com/guides/partnership_authentication_process
+sources:
+- https://developers.foodics.com/guides/partnership_authentication_process
+description: OAuth2 authorization code flow
+schemes:
+- type: oauth2
+  name: OAuth2
+  evidence: Initiate OAuth flow through the below link, which will represent the Install button for your application under the Marketplace module
+    as shown on the below screenshot.
+  flows:
+  - authorization_code
+  authorize_url: https://console.foodics.com/authorize?client_id={your_client_id}&state={random_string}
+  how_to_obtain: User authorizes the app via the Foodics Authorization server, which redirects back with an authorization code that the app exchanges
+    for an access token.
+docs: https://developers.foodics.com/guides/partnership_authentication_process

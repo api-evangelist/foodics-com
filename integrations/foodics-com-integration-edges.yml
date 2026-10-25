@@ -1,0 +1,22 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/foodics-com/integrations
+- https://zapier.com/apps/foodics/integrations
+- https://zapier.com/apps/alwans/integrations
+- https://n8n.io/integrations/foodics-com/
+- https://n8n.io/integrations/foodics/
+- https://composio.dev/toolkits/foodics-com
+- https://monid.ai/tools/foodics-com
+checked:
+- https://composio.dev/toolkits/foodics-com
+- https://monid.ai/tools/foodics-com
+- https://n8n.io/integrations/foodics-com/
+- https://n8n.io/integrations/foodics/
+- https://zapier.com/apps/alwans/integrations
+- https://zapier.com/apps/foodics-com/integrations
+- https://zapier.com/apps/foodics/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
